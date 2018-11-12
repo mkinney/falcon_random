@@ -1,0 +1,17 @@
+---
+
+sudo: required
+
+language: python
+
+python:
+  - "3.6"
+
+services:
+  - docker
+
+install:
+  pip3 install -r requirements.txt
+
+script:
+  make lint build run test
