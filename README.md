@@ -9,7 +9,7 @@ Make sure the app works locally:
     virtualenv -p python3 venv
     source venv/bin/activate
     pip install -r requirements.txt
-    gunicorn -b 0.0.0.0:8000 generateRandom:api
+    gunicorn -b 0.0.0.0:8000 app:API
 
 # Build
 
