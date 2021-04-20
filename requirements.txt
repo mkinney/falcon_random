@@ -12,7 +12,7 @@ mccabe==0.6.1
 more-itertools==4.3.0
 pathspec==0.5.9
 pluggy==0.8.0
-py==1.7.0
+py==1.10.0
 pylint==2.1.1
 pytest==3.10.1
 python-mimeparse==1.6.0
